@@ -33,7 +33,7 @@ cat << EOF
  
 EOF
 echo -e "                \e[100m                Steady script           \e[00;37;40m"
-echo -e "               \e[01;34m                    by getandroid                 \e[00;37;40m"
+echo -e "               \e[01;34m                    by Doostiha                 \e[00;37;40m"
 echo ""
 cat << EOF
  $bld$f1▄ ▀▄   ▄▀ ▄   $f2 ▄▄▄████▄▄▄    $f3  ▄██▄     $f4▄ ▀▄   ▄▀ ▄   $f5 ▄▄▄████▄▄▄    $f6  ▄██▄  $rst
@@ -59,11 +59,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
 
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -211,11 +211,11 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
 # Starting preliminar setup
 sleep 1.5
 echo -e "$bld$f4 CHECKING PROCESSES...$rst"
@@ -481,11 +481,11 @@ while getopts ":tsTSih" opt; do
 	echo ""
 	echo -e "\e[0m"
 
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
-echo -e "\033[38;5;208m @GPMod    :)      @getandroid \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
+echo -e "\033[38;5;208m @GPMod    :)      @Doostiha \033[0;00m"
 echo ""
 	exit 1
       ;;
