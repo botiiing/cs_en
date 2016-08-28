@@ -49,9 +49,8 @@ killall screen
 killall tmux
 killall telegram-cli
 tmux new-session -s script "bash steady.sh -t"
-...
 
-* * *
+```
 
 ```sh
  sudo_users = {
