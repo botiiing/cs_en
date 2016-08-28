@@ -212,7 +212,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-	"admin",
+    "admin",
     "onservice",
     "inrealm",
     "ingroup",
@@ -228,36 +228,46 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
-	"whitelist",
-	"msg_checks"
+    "whitelist",
+    "msg_checks",
+    "plugins",
+    "on-off",
+    "saveplug",
+    "sethelp",
+    "time",
+    "sendplug",
+    "rmsg",
+    "lock_emoji",
+    "lock_join",
+    "lock_media",
+    "lock_operator",
+    "lock_reply",
+    "lock_tag",
+    "lock_username",
+    "lock_english",
+    "lock_fwd",
+    "badword",
+    "lock_fosh",
+    "linkpv",
+    "dlpl",
+    "write",
+    "supergroup",
+    "serverinfo",
+    "idme",
+    "info",
+    "st2ph",
+    "ph2st",
+    "wai",
+    "setwlc",
+    "weather",
+    "Voice",
+    "helppv",
+    "warn"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {234724442,0,0,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[Doostiha v1
 An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
 ]],
     help_text_realm = [[
 Realm Commands:
