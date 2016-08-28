@@ -40,8 +40,19 @@ To install everything in one command (useful for VPS deployment) on Debian-based
 #https://github.com/yagop/telegram-bot/wiki/Installation
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
+# AutoLaunch
+
+```sh
+sudo apt-get install tmux
+----------------------------
+killall screen
+killall tmux
+killall telegram-cli
+tmux new-session -s script "bash steady.sh -t"
+...
 
 * * *
+
 ```sh
  sudo_users = {
     785830210,
