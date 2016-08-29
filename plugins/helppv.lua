@@ -1,13 +1,13 @@
 do
     
 function run(msg, matches)
-  local help = [[Welcome ParadoxBot; 
+  local help = [[Welcome DoostihaBot; 
 Please Send Me
 /helpuser
 /helpfun
 --------------------
-@Paradox_TEAM 
-ραяαɗσx вσт]]
+@Doostiha 
+Doostiha вσт]]
     if matches[1] == 'helppv' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
    return 'send Help For your Pv !!'
