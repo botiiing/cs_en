@@ -262,7 +262,8 @@ function create_config( )
     "weather",
     "Voice",
     "helppv",
-    "warn"
+    "warn",
+    "block"
     },
     sudo_users = {234724442,0,0,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
