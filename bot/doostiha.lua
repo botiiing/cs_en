@@ -265,7 +265,8 @@ function create_config( )
     "warn",
     "block",
     "clean_members",
-    "chat"
+    "chat",
+    "help"
     },
     sudo_users = {234724442,0,0,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
