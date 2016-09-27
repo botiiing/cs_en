@@ -85,7 +85,7 @@ return {
         '^[/!#](helpfun)$',
         '^[/!#](helpuser)$',
         '^[/!#](helpadmin)$',
-        '^[/!#](help)$',
+        '^[/!#](helpp)$',
         '(.*)',
     },
     run = run,
